@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "esnext" /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017','ES2018' or 'ESNEXT'. */,
+    "module": "commonjs" /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */,
+    "lib": ["es2020", "dom"],
+    "jsx": "react-native",
+    "baseUrl": "./" /* Base directory to resolve non-absolute module names. */,
+    "types": ["./nativewind-env.d.ts"],
+    "paths": {
+      "@/*": ["./*"],
+      "tailwind.config": ["./tailwind.config.js"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
